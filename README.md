@@ -12,7 +12,7 @@ This C++ code reads a CSV file and processes its contents by extracting specific
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/M0NST312/Read-CSV-CPP.git
    ```
 
 2. Compile the code:
@@ -32,7 +32,7 @@ This C++ code reads a CSV file and processes its contents by extracting specific
 
 	Example output:
 	
-		```shell
+		```
 		REG_CODE | TOWN_CODE | TOWN_ID | TOWN_NAME | f2020 | m2020 | t2020
 		Value1   | Value2    | Value3  | Value4    | Value5| Value6| Value7
 		...
@@ -40,7 +40,7 @@ This C++ code reads a CSV file and processes its contents by extracting specific
 ### Customization
 Input File: If you want to process a different CSV file, modify the file name in the code:
 
-	```shell
+	```
 	fin.open("proj2020.csv", ios::in);
 	```
 ### License
